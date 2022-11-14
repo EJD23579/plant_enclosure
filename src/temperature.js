@@ -4,8 +4,7 @@ import React, { useState } from "react";
 import ReactSlider from "react-slider";
 
 function Temperature(){
-    const [range, setRange] = useState('50%');
-    const [sliding, setSliding] = useState('Inactive');
+
 
     return (<Grid class="slider">
         <Slider style={{
@@ -13,10 +12,10 @@ function Temperature(){
         width:500,
        }}
         aria-label="Humidity"
-        defaultValue={50}
+        defaultValue={15}
         valueLabelDisplay="auto"
         min={0}
-        max={100}>
+        max={30}>
         
 
             </Slider>

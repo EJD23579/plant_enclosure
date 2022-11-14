@@ -4,8 +4,11 @@ import React, { useState } from "react";
 import ReactSlider from "react-slider";
 
  function Light(){
-    const [range, setRange] = useState('50%');
-    const [sliding, setSliding] = useState('Inactive');
+
+   
+    
+
+
 
     return (<Grid class="slider">
         <Slider style={{
@@ -13,10 +16,10 @@ import ReactSlider from "react-slider";
         width:500,
        }}
         aria-label="Humidity"
-        defaultValue={50}
+        defaultValue={250}
         valueLabelDisplay="auto"
         min={0}
-        max={100}>
+        max={500}>
         
 
             </Slider>

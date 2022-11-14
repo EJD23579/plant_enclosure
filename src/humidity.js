@@ -4,8 +4,7 @@ import React, { useState } from "react";
 import ReactSlider from "react-slider";
 
  function Humidity(){
-    const [range, setRange] = useState('50%');
-    const [sliding, setSliding] = useState('Inactive');
+
 
     return (<Grid class="slider">
         <Slider style={{
